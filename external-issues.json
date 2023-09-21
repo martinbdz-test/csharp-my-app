@@ -1,0 +1,35 @@
+{
+  "rules": [
+    {
+      "ruleId": "my_awesome_rule_1",
+      "name": "My Awesome Rule",
+      "description": "Description on the awesome rules ...",
+      "engineId": "awesome engine",
+      "cleanCodeAttribute": "FORMATTED",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        },
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "LOW"
+        }
+      ],
+      "issues": [
+        {
+          "primaryLocation": {
+            "message": "fix the issue here",
+            "filePath": "Program.cs",
+            "textRange": {
+              "startLine": 9,
+              "startColumn": 20,
+              "endLine": 9,
+              "endColumn": 29
+            }
+          }
+        },
+      ]
+    }
+  ]
+}
